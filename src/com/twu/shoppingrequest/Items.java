@@ -28,6 +28,7 @@ public class Items {
     }
 
     public static void main(String args[]) {
+        System.out.println("Enter one line of input");
         Scanner in = new Scanner(System.in);
         String input = in.nextLine();
         Items items = new Items();
