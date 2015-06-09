@@ -18,7 +18,7 @@ public class SalesTaxTest {
 
         boolean actualTax=false;
 
-        assertThat(actualTax,is(salesTax.calculateSalesTax()));
+        assertThat(actualTax,is(salesTax.checkIfSalesTaxIsApplicable()));
     }
 }
 
