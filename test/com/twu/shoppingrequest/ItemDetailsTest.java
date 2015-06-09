@@ -30,6 +30,6 @@ public class ItemDetailsTest {
 
         double actualTax = itemDetails.calculateTax();
 
-        assertEquals(1.249,actualTax,0.05);
+        assertEquals(0.0,actualTax,0.05);
     }
 }

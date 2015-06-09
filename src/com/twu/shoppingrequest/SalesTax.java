@@ -17,7 +17,7 @@ public class SalesTax {
     public boolean checkIfSalesTaxIsApplicable() {
         boolean applicable = false;
         for (String s : exemptedList)
-            if (s.equals(itemDetails.returnDetails())) {
+            if ((itemDetails.returnDetails()).contains(s)) {
                 applicable = true;
             }
         return applicable;
