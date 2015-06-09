@@ -12,9 +12,6 @@ public class Items {
     public String[] parseInput(String input) {
 
         String[] subString = input.split(" ");
-        for (String s : subString) {
-            System.out.println(s);
-        }
         return subString;
     }
 
@@ -24,9 +21,9 @@ public class Items {
             details += subString[i];
         }
         ItemDetails itemDetails = new ItemDetails(parseInt(subString[0]), details, parseDouble(subString[subString.length - 1]));
-        System.out.println(parseInt(subString[0]));
-        System.out.println(details);
-        System.out.println(parseDouble(subString[subString.length - 1]));
+        double tax = itemDetails.calculateTax();
+        System.out.print("Sales Tax ");
+        System.out.print(tax);
         return itemDetails;
     }
 
