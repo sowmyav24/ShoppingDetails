@@ -14,7 +14,7 @@ public class SalesTax {
         exemptedList.add("medicine");
     }
 
-    public boolean calculateSalesTax() {
+    public boolean checkIfSalesTaxIsApplicable() {
         boolean applicable=false;
         for (String s : exemptedList)
             if (s.equals(itemDetails.returnDetails())) {
