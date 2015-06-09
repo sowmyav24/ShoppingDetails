@@ -1,3 +1,5 @@
+package com.twu.shoppingrequest;
+
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.equalTo;
@@ -12,7 +14,7 @@ public class ItemDetailsTest {
 
         String actualMessage = itemDetails.returnDetails();
 
-        assertThat(actualMessage, is(equalTo("1bookat12.49")));
+        assertThat(actualMessage, is(equalTo("bookat")));
     }
 
 }

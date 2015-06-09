@@ -1,3 +1,7 @@
+package com.twu.shoppingrequest;
+
+import com.twu.shoppingrequest.ItemDetails;
+import com.twu.shoppingrequest.Items;
 import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import org.junit.Before;

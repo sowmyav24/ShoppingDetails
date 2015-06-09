@@ -1,3 +1,5 @@
+package com.twu.shoppingrequest;
+
 import java.util.Scanner;
 
 import static java.lang.Double.parseDouble;

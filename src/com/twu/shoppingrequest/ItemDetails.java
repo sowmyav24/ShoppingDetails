@@ -1,3 +1,5 @@
+package com.twu.shoppingrequest;
+
 public class ItemDetails {
     private int quantity;
     private String itemName;
@@ -10,6 +12,6 @@ public class ItemDetails {
     }
 
     public String returnDetails() {
-        return this.quantity+this.itemName+this.price;
+        return this.itemName;
     }
 }
